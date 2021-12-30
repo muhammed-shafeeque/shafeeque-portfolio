@@ -240,7 +240,7 @@ svg{
 
 
 
-@media(max-width : 400px) {
+@media(max-width : 550px) {
     .info-outer{
         order: 2;
         flex: 0 0 100%;
@@ -262,9 +262,9 @@ svg{
         margin-left: -5%;
     }
     .subline{
-        margin-top: -30px;
-        margin-left: -15px;
-        width: 40px;
+        margin-top: -55px;
+        margin-left: -20px;
+        width: 50px;
     }
     .sub-head{
         font-size: 6vw;
@@ -278,6 +278,9 @@ svg{
         margin-bottom: 20px;
     }
 
+    .box-2{
+        min-height: 400px;
+    }
 
     .box2-para{
         display: none;
@@ -306,7 +309,7 @@ svg{
         font-size: 3vw;
         color: #fff;
         margin-top: 10px;
-        font-weight: 600;
+        /* font-weight: 600; */
     }
 
 
@@ -318,5 +321,39 @@ svg{
     .small-note{
         flex: 0 0 90%;
         height: 70px;
+    }
+}
+
+
+
+@media(max-width : 470px) {
+    .subline{
+        margin-top: -50px;
+        margin-left: -20px;
+        width: 50px;
+    }
+}
+
+@media(max-width : 430px) {
+    .subline{
+        margin-top: -40px;
+        margin-left: -18px;
+        width: 40px;
+    }
+}
+
+@media(max-width : 350px) {
+    .subline{
+        margin-top: -30px;
+        margin-left: -16px;
+        width: 36px;
+    }
+}
+
+@media(max-width : 300px) {
+    .subline{
+        margin-top: -30px;
+        margin-left: -16px;
+        width: 34px;
     }
 }
