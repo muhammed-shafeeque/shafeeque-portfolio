@@ -193,9 +193,77 @@ svg{
     /* background: rgb(63,94,251); 
     background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(173,80,167,1) 56%, rgba(252,70,107,1) 100%); */
 
-    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
 
 }
+.lan-box1{
+    flex: 0 0 10%;
+    height: 80%;
+    /* background-color: red; */
+
+    background-image: url('asset/angular-seeklogo.com.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.lan-box2{
+    flex: 0 0 10%;
+    height: 80%;
+    /* background-color: red; */
+
+    background-image: url('asset/javascript-js-seeklogo.com.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.lan-box3{
+    flex: 0 0 10%;
+    height: 80%;
+    /* background-color: red; */
+
+    /* background-image: url('asset/Microsoft-Dotnet-01.svg'); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+.netlogo{
+    width: 100px;
+    margin-top: -10px;
+}
+
+.lan-box4{
+    flex: 0 0 10%;
+    height: 80%;
+    /* background-color: red; */
+
+    background-image: url('asset/html5-with-wordmark-color.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+.lan-box5{
+    flex: 0 0 10%;
+    height: 80%;
+    /* background-color: red; */
+
+    /* background-image: url('asset/CSS-3-01.svg'); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+}
+
+
+
+
+
+
+
 .exp-outer{
     width: 88%;
     height: auto;
@@ -322,6 +390,11 @@ svg{
         flex: 0 0 90%;
         height: 70px;
     }
+
+    .netlogo{
+        width: 65px;
+        margin-top: -5px;
+    }
 }
 
 
@@ -331,6 +404,11 @@ svg{
         margin-top: -50px;
         margin-left: -20px;
         width: 50px;
+    }
+
+    .netlogo{
+        width: 58px;
+        margin-top: -0px;
     }
 }
 
@@ -348,6 +426,12 @@ svg{
         margin-left: -16px;
         width: 36px;
     }
+
+    .netlogo{
+        width: 48px;
+        margin-top: 5px;
+    }
+
 }
 
 @media(max-width : 300px) {
@@ -355,5 +439,10 @@ svg{
         margin-top: -30px;
         margin-left: -16px;
         width: 34px;
+    }
+
+    .netlogo{
+        width: 40px;
+        margin-top: 8px;
     }
 }
