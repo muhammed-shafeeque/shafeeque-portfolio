@@ -164,7 +164,7 @@ svg{
 
 .box-3{
     width: 100%;
-    height: 700px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     background-color: rgb(0, 0, 17);
@@ -267,31 +267,140 @@ svg{
 .exp-outer{
     width: 88%;
     height: auto;
-    /* background-color: red; */
+    /* background-color: rgb(0, 0, 0); */
     margin-left: 6%;
     display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    /* padding: 10px; */
+    /* border: solid 1px rgb(56, 56, 56); */
+    border-radius: 14px;
+    margin-top: -40px;
 }
-.exp1{
-    flex: 0 0 30%;
+.exp-head-box{
+    width: 100%;
     height: 100px;
-    background-color: #393939;
-    
-    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border-bottom: solid 1px white; */
+}
+.exp-head{
+    font-size: 1.8em;
+    color: #fff;
+    font-weight: 600;
+}
+.exp-sub-h{
+    font-size: 1.3em;
+    color: #fff;
+    margin-top: -15px;
 }
 
-.exp2{
-    flex: 0 0 30%;
-    height: 100px;
-    background-color: rgb(21, 21, 58);
-    opacity: 0.5;
+.project-outer{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+}
+.project1{
+    flex: 0 0 31%;
+    height: 220px;
+    background-color: #081249;
+    border-radius: 12px;
+     background-image: url('asset/screendrive-logo1-removebg-preview.png');
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+}
+.text-1{
+    width: 100%;
+    height: 100%;
+    color: #3C1A5B;
+    display: none;
+}
+.project1:hover .text-1 {
+    display: block;
+    border-radius: 12px;
+    background-color: #ff9800;
+    /* background-color: #141c3a; */
 }
 
-.exp3{
-    flex: 0 0 30%;
-    height: 100px;
-    background-color: rgb(21, 21, 58);
-    opacity: 0.5; 
+
+.project2{
+    flex: 0 0 31%;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    background-color: #c80000;
+    background-image: url('asset/AFC-logo-1.png');
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
 }
+
+
+.project3{
+    flex: 0 0 31%;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    background-color: #c80000;
+    background-image: url('asset/AFC-logo-1.png');
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+}
+
+
+.project4{
+    flex: 0 0 31%;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    background-color: #c80000;
+    background-image: url('asset/AFC-logo-1.png');
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+}
+
+.project5{
+    flex: 0 0 31%;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    background-color: #c80000;
+    background-image: url('asset/AFC-logo-1.png');
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+}
+
+
+.project6{
+    flex: 0 0 31%;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    background-color: #c80000;
+    background-image: url('asset/AFC-logo-1.png');
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+}
+
+
+.mg-tp-20{
+    margin-top: -20px;
+}
+.mg-tp-60{
+    margin-top: 60px;
+}
+
 
 
 
@@ -395,6 +504,46 @@ svg{
         width: 65px;
         margin-top: -5px;
     }
+
+
+    .exp-head{
+        font-size: 6vw;
+    }
+    .exp-sub-h{
+        font-size: 3vw;
+    }
+
+
+    .box-3{
+        height: 2000px;
+    }
+    .exp-outer{
+        margin-top: -210px;
+    }
+
+    .project1{
+        flex: 0 0 100%;
+    }
+    .project2{
+        flex: 0 0 100%;
+    }
+    .project3{
+        flex: 0 0 100%;
+        margin-top: 55px;
+    }
+    .project4{
+        flex: 0 0 100%;
+        margin-top: 55px;
+    }
+    .project5{
+        flex: 0 0 100%;
+        margin-top: 55px;
+    }
+    .project6{
+        flex: 0 0 100%;
+        margin-top: 55px;
+    }
+
 }
 
 
