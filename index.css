@@ -880,6 +880,10 @@ svg{
         margin-top: 5px;
     }
 
+    .res-btn{
+        width: 70%;
+    }
+
 }
 
 @media(max-width : 300px) {
