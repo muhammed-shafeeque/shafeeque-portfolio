@@ -352,10 +352,10 @@ svg{
     background-color: rgb(255, 255, 255);
     border-radius: 12px;
     background-color: #c80000;
-    background-image: url('asset/AFC-logo-1.png');
+    /* background-image: url('asset/edine-menu.jpg');
      background-repeat: no-repeat;
      background-position: center center;
-     background-size: contain;
+     background-size: contain; */
 }
 
 
@@ -364,12 +364,13 @@ svg{
     height: 220px;
     background-color: rgb(255, 255, 255);
     border-radius: 12px;
-    background-color: #c80000;
-    background-image: url('asset/AFC-logo-1.png');
+    /* background-color: #c80000; */
+    /* background-image: url('asset/edine-automation.jpg');
      background-repeat: no-repeat;
      background-position: center center;
-     background-size: contain;
+     background-size: contain; */
 }
+
 
 .project5{
     flex: 0 0 31%;
@@ -377,10 +378,10 @@ svg{
     background-color: rgb(255, 255, 255);
     border-radius: 12px;
     background-color: #c80000;
-    background-image: url('asset/AFC-logo-1.png');
+    /* background-image: url('asset/edine-mall.jpg');
      background-repeat: no-repeat;
      background-position: center center;
-     background-size: contain;
+     background-size: contain; */
 }
 
 
@@ -389,11 +390,14 @@ svg{
     height: 220px;
     background-color: rgb(255, 255, 255);
     border-radius: 12px;
-    background-color: #c80000;
+    /* background-color: #c80000;
     background-image: url('asset/AFC-logo-1.png');
      background-repeat: no-repeat;
      background-position: center center;
-     background-size: contain;
+     background-size: contain; */
+     display: flex;
+     justify-content: center;
+     align-items: center;
 }
 
 
