@@ -1,7 +1,8 @@
 html,body{
     height: 100%;
     margin: 0;
-    font-family: "eurostile", sans-serif;
+    /* font-family: "eurostile", sans-serif; */
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 .bg-primary{
     background-color: #ff9800;
@@ -98,7 +99,7 @@ svg{
     width: 280px;
     height: 270px;
     border-radius: 30% 70% 70% 30% / 35% 41% 59% 65%;
-    background-image: url('asset/edited-shafeeq-prof-removebg-preview.png');
+    background-image: url('asset/edited-shafeeq-prof-removebg-preview-removebg-preview.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
@@ -328,7 +329,7 @@ svg{
 .project1:hover .text-outer {
     display: block;
     border-radius: 12px;
-    background-color: #ff9800;
+    background-color: #ff9800; 
     /* background-color: #141c3a; */
 }
 .project1:hover img{
@@ -410,12 +411,27 @@ svg{
     height: 220px;
     background-color: rgb(255, 255, 255);
     border-radius: 12px;
-    background-color: #c80000;
+    /* background-color: #c80000; */
     /* background-image: url('asset/edine-menu.jpg');
      background-repeat: no-repeat;
      background-position: center center;
      background-size: contain; */
      cursor: pointer;
+}
+
+.text-outer-2 {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.project3:hover .text-outer-2 {
+    display: block;
+    border-radius: 12px;
+    background-color: #ff9800;
+    /* background-color: #141c3a; */
+}
+.project3:hover img{
+    display: none;
 }
 
 
@@ -431,6 +447,20 @@ svg{
      background-size: contain; */
      cursor: pointer;
 }
+.text-outer-3 {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.project4:hover .text-outer-3 {
+    display: block;
+    border-radius: 12px;
+    background-color: #ff9800;
+    /* background-color: #141c3a; */
+}
+.project4:hover img{
+    display: none;
+}
 
 
 .project5{
@@ -438,12 +468,26 @@ svg{
     height: 220px;
     background-color: rgb(255, 255, 255);
     border-radius: 12px;
-    background-color: #c80000;
+    /* background-color: #c80000; */
     /* background-image: url('asset/edine-mall.jpg');
      background-repeat: no-repeat;
      background-position: center center;
      background-size: contain; */
      cursor: pointer;
+}
+.text-outer-4 {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.project5:hover .text-outer-4 {
+    display: block;
+    border-radius: 12px;
+    background-color: #ff9800;
+    /* background-color: #141c3a; */
+}
+.project5:hover img{
+    display: none;
 }
 
 
@@ -461,6 +505,20 @@ svg{
      justify-content: center;
      align-items: center;
      cursor: pointer;
+}
+.text-outer-5 {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.project6:hover .text-outer-5 {
+    display: block;
+    border-radius: 12px;
+    background-color: #ff9800;
+    /* background-color: #141c3a; */
+}
+.project6:hover img{
+    display: none;
 }
 
 
@@ -531,6 +589,7 @@ svg{
     display: flex;
     flex-direction: column;
     margin-top: 200px;
+    border-bottom: solid 1px #171717;
 }
 .res-btn-out{
     width: 88%;
@@ -552,9 +611,19 @@ svg{
     color: #ff9800;
     cursor: pointer;
 }
-.res-btn:hover{
+.res-btn:hover .pdf-a{
     background-color: #ff9800;
     color: #000;
+}
+.pdf-a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #ff9800;
 }
 
 .ref-out{
@@ -611,6 +680,7 @@ svg{
     font-size: 1.3em;
     color: #fff;
     margin-top: 0px;
+    line-height: 30px;
 }
 .mob-ref-sub{
     display: none;
@@ -619,7 +689,7 @@ svg{
     width: 100%;
     height: 80px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     color: #fff;
@@ -797,7 +867,7 @@ svg{
 
 
     .box-3{
-        height: 3200px;
+        height: 3100px;
     }
     .exp-outer{
         margin-top: -460px;
@@ -874,6 +944,9 @@ svg{
         margin-top: -20px;
     }
 
+    .ref-out{
+        margin-top: 100px;
+    }
     .ref-q{
         margin-top: -0px;
     }
