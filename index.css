@@ -960,6 +960,9 @@ svg{
         display: none;
     }
 
+    .ref-name-hd{
+        font-size: 2.5vw;
+    }
     .ref-name-hd-sub{
         font-size: 2.5vw;
         margin-top: -5px;
