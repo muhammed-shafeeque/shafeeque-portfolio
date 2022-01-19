@@ -1009,6 +1009,12 @@ svg{
         margin-left: -18px;
         width: 40px;
     }
+
+    .res-btn{
+        width: 60%;
+    }
+
+
 }
 
 @media(max-width : 350px) {
