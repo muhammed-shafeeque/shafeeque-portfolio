@@ -3,6 +3,7 @@ html,body{
     margin: 0;
     /* font-family: "eurostile", sans-serif; */
     font-family: 'Be Vietnam Pro', sans-serif;
+    scroll-behavior: smooth;
 }
 .bg-primary{
     background-color: #ff9800;
@@ -209,6 +210,13 @@ svg{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
+    animation: lanb1 1s 1;
+}
+
+@keyframes lanb1{
+    0%{
+        margin-left: -80%;
+    }
 }
 
 .lan-box2{
