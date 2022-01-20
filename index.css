@@ -71,7 +71,7 @@ h4{
     }
 }
 .social-media{
-    width: 250px;
+    width: 100px;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -745,7 +745,7 @@ svg{
     /* border: solid 3px #0ebdd4; */
 }
 .contact-soci{
-    width: 300px;
+    width: 120px;
     height: auto;
     display: flex;
     justify-content: space-around;
@@ -801,7 +801,7 @@ svg{
         margin-top: 10px;
     }
     .social-media{
-        width: 200px;
+        width: 100px;
         margin-top: 0px;
         margin-left: -15px;
         margin-bottom: 20px;
